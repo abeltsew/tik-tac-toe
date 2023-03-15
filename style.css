@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.players {
+  display: flex;
+  position: absolute;
+  justify-content: space-around;
+  width: 100%;
+  top: 5rem;
+}
+
+.board {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+  border: solid red 1px;
+  height: 5rem;
+  width: 5rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
